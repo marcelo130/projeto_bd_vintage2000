@@ -64,3 +64,12 @@ CREATE TABLE pagamento (
     id_venda bigint
 );   
 
+
+ CREATE TABLE estoque (
+  id_estoque SERIAL PRIMARY KEY,
+  quantidade int,
+  id_produto bigint, 
+  id_fornecedor bigint
+);
+
+
