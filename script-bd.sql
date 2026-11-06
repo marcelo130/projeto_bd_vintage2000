@@ -47,3 +47,11 @@ CREATE TABLE conta (
   id_loja bigint null
 );
 
+
+CREATE TABLE cliente (
+ id_cliente SERIAL PRIMARY KEY,
+ nome varchar(255) not null ,
+ cpf decimal(10,2), 
+ id_conta bigint null 
+);
+
