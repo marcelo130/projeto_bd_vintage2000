@@ -73,3 +73,12 @@ CREATE TABLE pagamento (
 );
 
 
+CREATE TABLE produto (
+    id_produto SERIAL PRIMARY KEY,
+    nome varchar(255),
+    tendencia varchar(255),
+    novidade boolean,
+    preco_base decimal(10,2),
+    id loja bigint ,
+    id_categoria bigint
+);   
