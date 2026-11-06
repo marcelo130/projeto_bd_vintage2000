@@ -14,3 +14,10 @@ CREATE TABLE item_venda (
   id_produto
   id_estoque
 );
+
+CREATE TABLE loja (
+    id_loja SERIRAL PRIMARY KEY,
+    nome varchar (255),
+    endereço varchar (255),
+    id_conta
+);
