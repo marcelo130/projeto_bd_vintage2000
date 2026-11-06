@@ -55,3 +55,12 @@ CREATE TABLE cliente (
  id_conta bigint null 
 );
 
+
+CREATE TABLE pagamento (
+    id_pagamento SERIAL PRIMARY KEY,
+    tipo varchar(50),
+    valor decimal(10,2),
+    status varchar(50),
+    id_venda bigint
+);   
+
