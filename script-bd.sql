@@ -6,3 +6,11 @@ CREATE TABLE categoria (
 );
 
 
+CREATE TABLE item_venda (
+  id_item_venda SERIAL PRIMARY KEY,
+  quantidade int, 
+  preco_unitario decimal(10,2),
+  id_venda
+  id_produto
+  id_estoque
+);
